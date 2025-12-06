@@ -1,2 +1,10 @@
 # Hyprland Dotfiles
-Just hyprland dotfiles that are very customizable and free to use.
+Will Complete this file... Soon...
+
+## Installtion
+
+Run this command to install packages:
+
+``` bash
+sudo pacman -S hyprland rofi hyprpaper waybar dolphin firefox cliphist konsole btop pulsemixer vim ttf-jetbrains-mono-nerd
+```
