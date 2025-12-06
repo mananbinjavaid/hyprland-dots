@@ -1,7 +1,7 @@
 # Hyprland Dotfiles
 Will Complete this file... Soon...
 
-## Installtion
+## Installation
 
 Run this command to install packages:
 
