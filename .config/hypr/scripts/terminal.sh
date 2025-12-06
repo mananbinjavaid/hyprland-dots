@@ -1,0 +1,3 @@
+# SCRIPT BY MANAN BI JAVAID
+
+konsole
