@@ -1,0 +1,24 @@
+// QUICKLINKS BY MANAN BIN JAVAID
+
+{
+    "custom/quicklink1": {
+        "format": " ",
+        "on-click": "firefox",
+        "tooltip-format": "Open the browser"
+    },
+    "custom/quicklink2": {
+        "format": " ",
+        "on-click": "dolphin",
+        "tooltip-format": "Open the filemanager"
+    },
+    "custom/quicklinkempty": {
+    },
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink1",
+            "custom/quicklink2",
+            "custom/quicklinkempty"
+        ]
+    }
+}
