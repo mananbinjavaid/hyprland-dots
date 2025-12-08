@@ -1,6 +1,6 @@
 # Hyprland Dotfiles
 
-Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, but you can customize it to make it suitable for your linux distro too. **All the Commands in this README will only work on Arch Linux or any Arch-Based Distro.** 
+Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, but you can customize it to make it suitable for your linux distro too.
 
 ## Packages/Apps/Tools/Wallpaper Used
 
@@ -10,9 +10,10 @@ Just Hyprland Dotfiles which are very Customizable. This setup is created on Arc
 - **File Explorer:** Dolphin
 - **Status Bar:** Waybar
 - **Application Launcher:** Rofi
-- **Wallpaper:** KDE Plasma's Mountain Dark (Already included in Dotfiles: ~/.config/hypr/wallpapers/wallpaper.png)
+- **Wallpaper:** KDE Plasma's Mountain Dark (Already included in Dotfiles: `~/.config/hypr/wallpapers/wallpaper.png`)
 - **Volume Controller:** PulseMixer
 - **System Monitor:** btop++
+- **Key Binds:** Included at the 2nd Last Section.
 
 ## Installation
 
@@ -20,13 +21,15 @@ To install and use these dotfiles, follow these steps:
 
 ### IMPORTANT: Before Installing
 
-Please Note that :
-**All the Commands in this README will only work on Arch Linux or any Arch-Based Distro.** If you want to install it in any other Distro, you need to type your distro's suitable Command. 
+Before Installing, it is always recommended to take a **Backup of your Dotfiles**. As this installtion will delete your previous dotfiles (hypr, waybar, rofi Folder/Directory) in ~/.config/.
 
+Please NOTE That :
+
+**All the Commands in this README will only work on Arch Linux or any Arch-Based Distro.** If you want to install it in any other Distro, you need to type your distro's suitable Command. 
 
 ### Download KDE Plasma and SDDM.
 
-(Optional) To get the best experience, it is recommended to first install KDE Plasma and SDDM if not installed, So that you can have all the tools for the best experience and have good quality on apps (Like Dolphin, Kate, Ark etc.) and change their themes too.
+(Optional But Very Recommended) To get the best experience, it is recommended to first install KDE Plasma and SDDM if not installed, So that you can have all the tools for the best experience and have good quality on apps (Like Dolphin, Kate, Ark etc.) and change their themes too.
 
 You can download it with this command:
 
@@ -64,17 +67,56 @@ git clone https://github.com/mananbinjavaid/hyprland-dots.git
 
 ### 3. Move the Files
 
-In the same Directory where you ran the previous command to clone the repository, go to the folder named "hyprland-dots".
-Inside it, go to a Directory/Folder named ".config" (If you're using a GUI File Manager like Dolphin, it is likely that hidden files and enabled, disable it to see the .config directory/folder).
+Make sure that you are in the same directory where you ran the previous `git clone` command. This command will first **delete** any existing configurations you may have (as warned above).
+
+``` bash
+rm -rf ~/.config/hypr ~/.config/waybar ~/.config/rofi
+cd hyprland-dots
+cp -r .config/{hypr,waybar,rofi} ~/.config/
+```
+
+If you want to move the files with a GUI File Manager, here is how to do it:
+
+Navigate to the hyprland-dots folder. Inside it, go to a Directory/Folder named ".config" (If you're using a File Manager like Dolphin, it is likely that hidden files and enabled, disable it to see the .config directory/folder).
+
 Copy the Folders named "hypr", "waybar", and "rofi".
 Then, Paste them to ~/.config/
 
-### 4. Finished
+### 4. Post-Installtion
 
 If you did these steps correctly, then Hyprland should run with the dotfiles. Logout of your Other DE (Desktop Environment) or WM (Window Manager), and Log in to Hyprland.
 
+Then, after it is installed, You need to provide permission to Reload Waybar. You can do it by running this command in a terminal (e.g. Konsole):
+
+``` bash
+chmod +x ~/.config/hypr/scripts/reload-waybar.sh
+```
+
+### Full Installation Finished
+
+You can now enjoy Hyprland :)
+
+## Key Binds
+
+Also Mentioned in `~/.config/hypr/mainfiles/keybinds.conf`.
+
+**NOTE:** SUPER = Windows Key
+
+- **Open Terminal (Konsole):** SUPER + Return (Enter Key)
+- **Open Application Launcher (Rofi):** Alt + Space
+- **Close Apps:** Alt + F4
+- **Exit/Logout Hyprland:** SUPER + M
+- **Open File Manager (Dolphin):** SUPER + E
+- **Reload Waybar:** SUPER + Shift + B
+- **Switch Workspaces:** SUPER + 1-5 (Only 5 Workspaces Configured In Hypr Config and Waybar. You can Increase It)
+- **Switch Workspaces with Mouse:** SUPER + Mouse Scroll
+- **Move Apps to Different Workspaces:** SUPER + SHIFT + 1+5 (While The App to Shift is Selected/Hovered. 5 Workspaces Button in Waybar. You can Increase It)
+- **Move Focus To Left/Right/Top/Bottom App:** SUPER + LeftArrow/RightArrow/UpArrow/DownArrow
+- **Move Windows:** SUPER + LMB (Left Mouse Button)
+- **Resize Windows:** SUPER + RMB (Right Mouse Button) + Mouse Dragging
+
 ## Credits
 
-I will like to mention that the Rofi and Waybar Configuration were Originally By Stephen Raabe (ML4W / MyLinuxForWork) Hyprland Starter, and I have modified the Waybar to make it better and have changed the margin of Rofi.
+I will like to mention that the Rofi and Waybar Configuration were Originally By [Stephen Raabe (ML4W / MyLinuxForWork)](https://github/com/mylinuxforwork/) Hyprland Starter, and I have modified the Waybar to make it better and have changed the margin of Rofi.
 
 [https://github.com/mylinuxforwork/hyprland-starter](https://github.com/mylinuxforwork/hyprland-starter)
