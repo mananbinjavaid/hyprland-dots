@@ -5,7 +5,7 @@ Just Hyprland Dotfiles which are very Customizable. This setup is created on Arc
 ## Packages/Apps/Tools/Wallpaper Used
 
 - **WM:** Hyprland
-- **Terminal:** Konsole (You can change/customize it)
+- **Terminal:** Konsole (You can change/customize it.)
 - **Browser:** Firefox
 - **File Explorer:** Dolphin
 - **Status Bar:** Waybar
