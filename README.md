@@ -43,10 +43,10 @@ To Enable SDDM, First you need to disable your Previous Greeter. Run this comman
 
 ``` bash
 sudo systemctl disable PreviousGreeter
-sudo systemctl enable --now sddm
+sudo systemctl enable sddm
 ```
 
-You should now be in the SDDM Greeter/Desktop Manager.
+Then Reboot Arch Linux with `sudo reboot now`.
 
 ### 1. Download Required Packages
 
