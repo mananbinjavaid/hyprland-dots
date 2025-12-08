@@ -27,7 +27,7 @@ Please NOTE That :
 
 **All the Commands in this README will only work on Arch Linux or any Arch-Based Distro.** If you want to install it in any other Distro, you need to type your distro's suitable Command. 
 
-### Download KDE Plasma and SDDM.
+### Download KDE Plasma and SDDM (Skip This Step if Already Installed)
 
 (Optional But Very Recommended) To get the best experience, it is recommended to first install KDE Plasma and SDDM if not installed, So that you can have all the tools for the best experience and have good quality on apps (Like Dolphin, Kate, Ark etc.) and change their themes too.
 
@@ -36,6 +36,17 @@ You can download it with this command:
 ``` bash
 sudo pacman -S plasma plasma-meta xorg sddm kde-applications
 ```
+
+**NOTE on SDDM:** While Hyprland does not strictly require a Display Manager, SDDM is the recommended and easiest way to ensure Hyprland starts correctly and gives you a simple graphical login/session selector.
+
+To Enable SDDM, First you need to disable your Previous Greeter. Run this command to disable your Previous Greeter, Enable SDDM, and immediately go to it **(Replace "PreviousGreeter" with your greeter such as GDM)**:
+
+``` bash
+sudo systemctl disable PreviousGreeter
+sudo systemctl enable --now sddm
+```
+
+You should now be in the SDDM Greeter/Desktop Manager.
 
 ### 1. Download Required Packages
 
