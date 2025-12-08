@@ -2,8 +2,6 @@
 
 Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, but you can customize it to make it suitable for your linux distro too. **All the Commands in this README will only work on Arch Linux or any Arch-Based Distro.** 
 
-
-
 ## Packages/Apps/Tools/Wallpaper Used
 
 - **WM:** Hyprland
@@ -64,3 +62,19 @@ Then Clone the Repository with This Command:
 git clone https://github.com/mananbinjavaid/hyprland-dots.git
 ```
 
+### 3. Move the Files
+
+In the same Directory where you ran the previous command to clone the repository, go to the folder named "hyprland-dots".
+Inside it, go to a Directory/Folder named ".config" (If you're using a GUI File Manager like Dolphin, it is likely that hidden files and enabled, disable it to see the .config directory/folder).
+Copy the Folders named "hypr", "waybar", and "rofi".
+Then, Paste them to ~/.config/
+
+### 4. Finished
+
+If you did these steps correctly, then Hyprland should run with the dotfiles. Logout of your Other DE (Desktop Environment) or WM (Window Manager), and Log in to Hyprland.
+
+## Credits
+
+I will like to mention that the Rofi and Waybar Configuration were Originally By Stephen Raabe (ML4W / MyLinuxForWork) Hyprland Starter, and I have modified the Waybar to make it better and have changed the margin of Rofi.
+
+[https://github.com/mylinuxforwork/hyprland-starter](https://github.com/mylinuxforwork/hyprland-starter)
