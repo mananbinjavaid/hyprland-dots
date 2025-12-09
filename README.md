@@ -87,7 +87,7 @@ cd hyprland-dots
 cp -r .config/{hypr,waybar,rofi} ~/.config/
 ```
 
-If you want to move the files with a GUI File Manager, here is how to do it:
+If you don't want to use the above command (Skip this Part if you did and it worked) and want to move the files with a GUI File Manager, here is how to do it:
 
 Navigate to the hyprland-dots folder. Inside it, go to a Directory/Folder named ".config" (If you're using a File Manager like Dolphin, it is likely that hidden files and enabled, disable it to see the .config directory/folder).
 
