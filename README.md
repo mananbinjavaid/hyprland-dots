@@ -79,7 +79,7 @@ git clone https://github.com/mananbinjavaid/hyprland-dots.git
 
 ### 3. Move the Files
 
-Make sure that you are in the same directory where you ran the previous `git clone` command. This command will first **delete** any existing configurations you may have (as warned above).
+Make sure that you are in the same directory where you ran the previous `git clone` command. This command will first **delete** any existing configurations you may have (as warned above) and this command will Move the Files Automatically.
 
 ``` bash
 rm -rf ~/.config/hypr ~/.config/waybar ~/.config/rofi
