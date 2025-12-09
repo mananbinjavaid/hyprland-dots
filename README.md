@@ -14,6 +14,7 @@ Just Hyprland Dotfiles which are very Customizable. This setup is created on Arc
 - **Volume Controller:** PulseMixer
 - **System Monitor:** btop++
 - **Key Binds:** Included at the 2nd Last Section.
+- **Monitor Configuration:** Configured for 1920x1080 At 60Hz Refresh Rate. You can change it at `~/.config/hypr/mainfiles/monitor.conf`.
 
 ## Installation
 
