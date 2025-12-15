@@ -54,7 +54,7 @@ Then Reboot Arch Linux with `sudo reboot now`.
 To ensure smooth functioning of Hyprland, it is suggested to first run this command on Arch Linux (Or any other Arch Based Distro) to download the required packages/dependencies.
 
 ``` bash
-sudo pacman -S hyprland rofi hyprpaper waybar dolphin firefox cliphist konsole btop pulsemixer vim ttf-jetbrains-mono-nerd
+sudo pacman -S hyprland rofi hyprpaper waybar dolphin firefox cliphist konsole impala btop pulsemixer vim ttf-jetbrains-mono-nerd
 ```
 
 ### 2. Clone the Repository
