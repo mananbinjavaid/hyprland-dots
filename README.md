@@ -2,7 +2,9 @@
 
 Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, but you can customize it to make it suitable for your linux distro too.
 
-## Packages/Apps/Tools/Wallpaper Used
+(For Installation, Please Scroll Down)
+
+## Packages/Apps/Tools/Wallpapers Used
 
 - **WM:** Hyprland
 - **Terminal:** Konsole (You can change/customize it.)
@@ -10,7 +12,7 @@ Just Hyprland Dotfiles which are very Customizable. This setup is created on Arc
 - **File Explorer:** Dolphin
 - **Status Bar:** Waybar
 - **Application Launcher:** Rofi
-- **Wallpaper:** KDE Plasma's Mountain Dark (Already included in Dotfiles: `~/.config/hypr/wallpapers/wallpaper.png`)
+- **Wallpapers:** (See at Second Last Section)
 - **Volume Controller:** PulseMixer
 - **System Monitor:** btop++
 - **Key Binds:** Included at the 2nd Last Section.
@@ -127,8 +129,18 @@ Also Mentioned in `~/.config/hypr/mainfiles/keybinds.conf`.
 - **Move Windows:** SUPER + LMB (Left Mouse Button)
 - **Resize Windows:** SUPER + RMB (Right Mouse Button) + Mouse Dragging
 
+## Wallpapers
+
+**NOTE:** The Wallpaper Utility Used is *Hyprpaper*. Config at `~/.config/hypr/hyprpaper.conf`
+
+Wallpapers Included At: `~/.config/hypr/wallpapers/`
+
+- **(Default) KDE Plasma's Mountain Dark Wallpaper:** `~/.config/hypr/wallpapers/wallpaper.png`
+- **Windows Tokyo Tower Lock Screen Wallpaper:** `/.config/hypr/wallpapers/wallpaper_1.jpg`
+- **Rampert Lakes Wallpaper:** `~/.config/wallpapers/wallpaper_2.jpg`
+
 ## Credits
 
-I will like to mention that the Rofi and Waybar Configuration were Originally By [Stephen Raabe (ML4W / MyLinuxForWork)](https://github/com/mylinuxforwork/) Hyprland Starter, and I have modified the Waybar to make it better and have changed the margin of Rofi.
+I would like to mention that the Rofi and Waybar Configuration were Originally By [Stephen Raabe (ML4W / MyLinuxForWork)](https://github/com/mylinuxforwork/) Hyprland Starter, and I have modified the Waybar to make it better and have changed the margin of Rofi.
 
 [https://github.com/mylinuxforwork/hyprland-starter](https://github.com/mylinuxforwork/hyprland-starter)
