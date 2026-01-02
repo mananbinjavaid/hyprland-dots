@@ -12,6 +12,7 @@ Just Hyprland Dotfiles which are very Customizable. This setup is created on Arc
 - **File Explorer:** Dolphin
 - **Status Bar:** Waybar
 - **Application Launcher:** Rofi
+- **Text Editor:** Neovim - LazyVim (You can also install VS Codium with `sudo pacman -S code`)
 - **Wallpapers:** (See at Second Last Section)
 - **Volume Controller:** PulseMixer
 - **System Monitor:** btop++
@@ -56,7 +57,7 @@ Then Reboot Arch Linux with `sudo reboot now`.
 To ensure smooth functioning of Hyprland, it is suggested to first run this command on Arch Linux (Or any other Arch Based Distro) to download the required packages/dependencies.
 
 ``` bash
-sudo pacman -S hyprland rofi hyprpaper waybar dolphin firefox cliphist konsole impala btop pulsemixer vim ttf-jetbrains-mono-nerd
+sudo pacman -S hyprland rofi konsole hyprpaper waybar dolphin firefox cliphist nvim impala btop pulsemixer ttf-jetbrains-mono-nerd
 ```
 
 ### 2. Clone the Repository
@@ -84,16 +85,16 @@ git clone https://github.com/mananbinjavaid/hyprland-dots.git
 Make sure that you are in the same directory where you ran the previous `git clone` command. This command will first **delete** any existing configurations you may have (as warned above) and this command will Move the Files Automatically.
 
 ``` bash
-rm -rf ~/.config/hypr ~/.config/waybar ~/.config/rofi
+rm -rf ~/.config/hypr ~/.config/waybar ~/.config/rofi ~/.config/nvim
 cd hyprland-dots
-cp -r .config/{hypr,waybar,rofi} ~/.config/
+cp -r .config/{hypr,waybar,rofi,nvim} ~/.config/
 ```
 
-If you don't want to use the above command (Skip this Part if you did and it worked) and want to move the files with a GUI File Manager, here is how to do it:
+**If you don't want to use the above command (Skip this Part if you did and it worked)** and want to move the files with a GUI File Manager, here is how to do it:
 
 Navigate to the hyprland-dots folder. Inside it, go to a Directory/Folder named ".config" (If you're using a File Manager like Dolphin, it is likely that hidden files and enabled, disable it to see the .config directory/folder).
 
-Copy the Folders named "hypr", "waybar", and "rofi".
+Copy the Folders named "hypr", "waybar", "rofi" and "nvim".
 Then, Paste them to ~/.config/
 
 ### 4. Post-Installtion
