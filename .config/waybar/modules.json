@@ -1,9 +1,7 @@
 // ORIGINAL MODULES BY STEPHEN RAABE (ML4W / MYLINUXFORWORK)
 // MODIFIED BY MANAN BIN JAVAID
 
-{   // Arch Linux Logo 󰣇
-
-
+{  
     // Workspaces
     "hyprland/workspaces" : {
         "on-click": "activate",
