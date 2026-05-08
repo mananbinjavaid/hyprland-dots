@@ -1,6 +1,6 @@
 # Hyprland Dotfiles
 
-Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, but you can customize it to make it suitable for your linux distro too.
+Just Hyprland Dotfiles which are very Customizable. This setup is created on Arch Linux and is suitable for Arch Linux, if you want it to work for your distro, then you can change the setup based on your distro.
 
 (For Installation, Please Scroll Down)
 
